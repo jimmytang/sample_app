@@ -786,6 +786,7 @@ Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/about]
   [4;36;1mSQL (5.6ms)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
 
 
+<<<<<<< HEAD
 Processing PagesController#help (for 127.0.0.1 at 2009-12-24 16:33:26) [GET]
 Rendering template within layouts/application
 Rendering pages/help
@@ -2745,6 +2746,15 @@ Completed in 32ms (View: 31, DB: 0) | 200 OK [http://localhost/pages/help]
 
 
 Processing ApplicationController#index (for 127.0.0.1 at 2009-12-24 17:57:06) [GET]
+=======
+Processing PagesController#contact (for 127.0.0.1 at 2009-12-24 21:12:28) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://localhost/pages/contact]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-24 21:12:28) [GET]
+>>>>>>> fixed
 
 
 ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css" with {:method=>:get}):
@@ -2794,7 +2804,11 @@ ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.
 Rendering /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
 
 
+<<<<<<< HEAD
 Processing ApplicationController#index (for 127.0.0.1 at 2009-12-24 17:57:06) [GET]
+=======
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-24 21:12:28) [GET]
+>>>>>>> fixed
 
 
 ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css" with {:method=>:get}):
@@ -2844,6 +2858,7 @@ ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.c
 Rendering /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
 
 
+<<<<<<< HEAD
 Processing ApplicationController#index (for 127.0.0.1 at 2009-12-24 17:57:06) [GET]
 
 
@@ -2901,6 +2916,15 @@ Completed in 31ms (View: 30, DB: 0) | 200 OK [http://localhost/pages/contact]
 
 
 Processing ApplicationController#index (for 127.0.0.1 at 2009-12-24 17:57:10) [GET]
+=======
+Processing PagesController#contact (for 127.0.0.1 at 2009-12-24 21:15:24) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Completed in 13ms (View: 9, DB: 0) | 200 OK [http://localhost/pages/contact]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-24 21:15:24) [GET]
+>>>>>>> fixed
 
 
 ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.css" with {:method=>:get}):
@@ -2950,7 +2974,11 @@ ActionController::RoutingError (No route matches "/stylesheets/blueprint/screen.
 Rendering /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
 
 
+<<<<<<< HEAD
 Processing ApplicationController#index (for 127.0.0.1 at 2009-12-24 17:57:10) [GET]
+=======
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-24 21:15:25) [GET]
+>>>>>>> fixed
 
 
 ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.css" with {:method=>:get}):
@@ -3000,7 +3028,11 @@ ActionController::RoutingError (No route matches "/stylesheets/blueprint/print.c
 Rendering /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
 
 
+<<<<<<< HEAD
 Processing ApplicationController#index (for 127.0.0.1 at 2009-12-24 17:57:10) [GET]
+=======
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-24 21:15:25) [GET]
+>>>>>>> fixed
 
 
 ActionController::RoutingError (No route matches "/stylesheets/custom.css" with {:method=>:get}):
