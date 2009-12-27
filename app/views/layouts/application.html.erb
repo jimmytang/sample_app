@@ -3,24 +3,15 @@
 <html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <title><%= title %></title>
-    <%= stylesheet_link_tag 'blueprint/screen', :media => 'screen' %>
-    <%= stylesheet_link_tag 'blueprint/print',  :media => 'print' %>
-    <!--[if lt IE 8]><%= stylesheet_link_tag 'blueprint/ie' %><![endif]-->
-    <%= stylesheet_link_tag 'custom', :media => 'screen' %>
+    <%= render 'layouts/_stylesheets' %>
   </head>
   <body>
     <div class="container">
-      <div id="header">
-        <%= image_tag("mochi_bunnies_girls_t_shirt-p235759192799421781ye7t_400.jpg", :alt => "Sample App", :class => "round") %>
-        <ul class="navigation round">
-          <li><%= link_to "Home", '#' %></li>
-          <li><%= link_to "Help", '#' %></li>
-          <li><%= link_to "Sign in", '#' %></li>
-        </ul>
-      </div>
+      <%= render 'layouts/_header' %>
       <div id="content" class="round">
         <%= yield %>
       </div>
+      <%= render 'layouts/_footer' %>
     </div>
   </body>
 </html>
